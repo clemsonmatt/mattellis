@@ -62,7 +62,7 @@
             var commandHistory      = [];
             var commandHistoryCount = 1;
 
-            Command.startUp();
+            // Command.startUp();
 
             $('#console-input').keydown(function(e) {
                 if (e.which == 13) {
@@ -112,6 +112,16 @@
                             Command.caitlyn();
                             break;
 
+                        case "cat":
+                            errorCommand = 0;
+                            Command.moreInfo('Specify a .txt file.', 'cat about.txt');
+                            break;
+
+                        case "cat about.txt":
+                            errorCommand = 0;
+                            Command.aboutText();
+                            break;
+
                         case "clear":
                             errorCommand = 0;
                             Command.clearLog();
@@ -133,6 +143,11 @@
                         case "h":
                             errorCommand = 0;
                             Command.help();
+                            break;
+
+                        case "home":
+                            errorCommand = 0;
+                            Command.home();
                             break;
 
                         case "ls":
@@ -189,6 +204,13 @@
         });
 
         var Command = {
+            aboutText: function() {
+                var text = '<br><br>'
+                    + 'My name is Matt Ellis. I graduated from Clemson University with a Bachelors of Science in Computer Science. Through my internship at the university, building web apps for the NCEES, and various freelance jobs; I have enjoyed learing many new languages and OOP skills. I have a passion for web development. I like building, desiging, and structuring an application that not only functions, but promotes a good user experience. In my free time, I enjoy spending time on the lake with friends and family. My goal is to help build a better tomorrow through learning new technologies and never backing down from a challenge.'
+                    + '<br><br>';
+                $('#console-past').append(text);
+            },
+
             caitlyn: function() {
                 var message = '<br><br>'
                     + 'Caitlyn is the coolest <a>.</a><a>.</a><a>.</a> Period.'
@@ -249,10 +271,15 @@
                         + 'clear<br>'
                         + 'help<br>'
                         + 'ls [-l]<br>'
-                        + 'open filename.pdf'
+                        + 'open filename.pdf<br>'
+                        + 'home'
                     + '</div>'
                     + '<br>';
                 $('#console-past').append(helpText);
+            },
+
+            home: function() {
+                window.location.href = '/profile';
             },
 
             lotteryPicker: function() {
@@ -284,8 +311,7 @@
 
             ls: function() {
                 var list = '<br>'
-                    + 'aboutMe.txt '
-                    + '<span style="color: #59e;">contactMe.run</span> '
+                    + 'about.txt '
                     + '<span style="color: #59e;">lotteryPicker.run</span> '
                     + 'resume.pdf '
                     + 'skills.txt '
@@ -306,16 +332,7 @@
                             + '<td style="padding: 0px 10px;">staff</td>'
                             + '<td style="padding: 0px 10px;">684<td>'
                             + '<td style="padding: 0px 10px;">May 19 2015</td>'
-                            + '<td style="padding: 0px 10px;">aboutMe.txt</td>'
-                        + '</tr>'
-                        + '<tr>'
-                            + '<td style="padding: 0px 10px;">-rw-r--r--@<td>'
-                            + '<td style="padding: 0px 10px;">1</td>'
-                            + '<td style="padding: 0px 10px;">mattellis</td>'
-                            + '<td style="padding: 0px 10px;">staff</td>'
-                            + '<td style="padding: 0px 10px;">4263<td>'
-                            + '<td style="padding: 0px 10px;">Jan 03 2015</td>'
-                            + '<td style="padding: 0px 10px;"><span style="color: #59e;">contactMe.run</span></td>'
+                            + '<td style="padding: 0px 10px;">about.txt</td>'
                         + '</tr>'
                         + '<tr>'
                             + '<td style="padding: 0px 10px;">-rw-r--r--@<td>'
