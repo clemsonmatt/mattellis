@@ -62,7 +62,7 @@
             var commandHistory      = [];
             var commandHistoryCount = 1;
 
-            // Command.startUp();
+            Command.startUp();
 
             $('#console-input').keydown(function(e) {
                 if (e.which == 13) {
@@ -279,7 +279,7 @@
             },
 
             home: function() {
-                window.location.href = '/profile';
+                window.location.href = '/';
             },
 
             lotteryPicker: function() {
@@ -405,6 +405,10 @@
             openResume: function() {
                 window.open('/public/images/Resume-Revised-2015.pdf');
                 $('#console-past').append('<br>');
+            },
+
+            skillsText: function() {
+
             },
 
             startUp: function() {
