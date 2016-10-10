@@ -54,7 +54,7 @@
         <!-- Tabs -->
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <a href="public/images/Resume-Revised-2015.pdf" target="_blank" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Resume</a>
+                <a href="public/images/Resume2016.pdf" target="_blank" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Resume</a>
                 <a href="#contact" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Contact</a>
                 <a href="#portfolio" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Portfolio</a>
                 <a href="#skills" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Skills</a>
@@ -720,7 +720,7 @@
                         GitHub
                     </a>
                     <br><br>
-                    <a href="public/images/Resume-Revised-2015.pdf" target="_blank" style="font-size: 18px; color: inherit;">
+                    <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 18px; color: inherit;">
                         My Resume
                     </a>
                 </div>

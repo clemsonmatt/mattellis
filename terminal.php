@@ -62,7 +62,7 @@
             var commandHistory      = [];
             var commandHistoryCount = 1;
 
-            // Command.startUp();
+            Command.startUp();
 
             $('#console-input').keydown(function(e) {
                 if (e.which == 13) {
@@ -398,7 +398,7 @@
             },
 
             openResume: function() {
-                window.open('/public/images/Resume-Revised-2015.pdf');
+                window.open('/public/images/Resume2016.pdf');
                 $('#console-past').append('<br>');
             },
 
