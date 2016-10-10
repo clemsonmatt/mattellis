@@ -62,7 +62,7 @@
             var commandHistory      = [];
             var commandHistoryCount = 1;
 
-            // Command.startUp();
+            Command.startUp();
 
             $('#console-input').keydown(function(e) {
                 if (e.which == 13) {
@@ -120,6 +120,11 @@
                         case "cat about.txt":
                             errorCommand = 0;
                             Command.aboutText();
+                            break;
+
+                        case "cat skills.txt":
+                            errorCommand = 0;
+                            Command.skillsText();
                             break;
 
                         case "clear":
@@ -206,7 +211,7 @@
         var Command = {
             aboutText: function() {
                 var text = '<br><br>'
-                    + 'My name is Matt Ellis. I graduated from Clemson University with a Bachelors of Science in Computer Science. Through my internship at the university, building web apps for the NCEES, and various freelance jobs; I have enjoyed learing many new languages and OOP skills. I have a passion for web development. I like building, desiging, and structuring an application that not only functions, but promotes a good user experience. In my free time, I enjoy spending time on the lake with friends and family. My goal is to help build a better tomorrow through learning new technologies and never backing down from a challenge.'
+                    + 'My name is Matt Ellis. I graduated from Clemson University with a Bachelors of Science in Computer Science. Through my internship at the university, building web apps for the NCEES, and various freelance jobs; I have enjoyed learning many new languages and OOP skills. I have a passion for web development. I like building, designing, and structuring an application that not only functions, but promotes a good user experience. In my free time, I enjoy spending time on the lake with friends and family. My goal is to help build a better tomorrow through learning new technologies and never backing down from a challenge.'
                     + '<br><br>';
                 $('#console-past').append(text);
             },
@@ -279,7 +284,7 @@
             },
 
             home: function() {
-                window.location.href = '/profile';
+                window.location.href = '/';
             },
 
             lotteryPicker: function() {
@@ -316,7 +321,6 @@
                     + 'resume.pdf '
                     + 'skills.txt '
                     + '<span style="color: #59e;">startUp.run</span> '
-                    + 'workExperience.txt '
                     + '<br>';
 
                 $('#console-past').append(list);
@@ -370,15 +374,6 @@
                             + '<td style="padding: 0px 10px;">Jan 02 2015</td>'
                             + '<td style="padding: 0px 10px;"><span style="color: #59e;">startUp.run</span></td>'
                         + '</tr>'
-                        + '<tr>'
-                            + '<td style="padding: 0px 10px;">-rw-r--r--@<td>'
-                            + '<td style="padding: 0px 10px;">1</td>'
-                            + '<td style="padding: 0px 10px;">mattellis</td>'
-                            + '<td style="padding: 0px 10px;">staff</td>'
-                            + '<td style="padding: 0px 10px;">2246<td>'
-                            + '<td style="padding: 0px 10px;">May 19 2015</td>'
-                            + '<td style="padding: 0px 10px;">workExperience.txt</td>'
-                        + '</tr>'
                     + '</table>';
 
                 $('#console-past').append(table);
@@ -403,8 +398,118 @@
             },
 
             openResume: function() {
-                window.open('/public/images/Resume-Revised-2015.pdf');
+                window.open('/public/images/Resume2016.pdf');
                 $('#console-past').append('<br>');
+            },
+
+            skillsText: function() {
+                var table = '<br>'
+                    + '<p>Languages</p>'
+                    + '<table>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">PHP<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Java</td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">JavaScripts<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">SQL</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">JQuery<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Python</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">CSS<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">C++</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">HTML<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Objective C</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">JQuery<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">AJAX</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">MySql<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;"></td>'
+                            + '<td style="padding: 0px 10px;"></td>'
+                        + '</tr>'
+                    + '</table>'
+                    + '<br>'
+                    + '<p>Tools</p>'
+                    + '<table>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">MVC Frameworks<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Object Oriented Design</td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Symfony 2/3<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Tower & GitHub Desktop</td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">CodeIgniter 2<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Responsive Design</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Doctrine<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Apache</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Twig<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Nginx</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">MS Office<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Xcode</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Bootstrap Framework<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Adobe Suite</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Git<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Android Studio</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Heroku<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Eclipse</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                    + '</table>'
+                    + '<br>';
+
+                $('#console-past').append(table);
             },
 
             startUp: function() {
