@@ -130,7 +130,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                MySql
+                                Java
                             </td>
                         </tr>
                         <tr>
@@ -152,7 +152,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star-o"></i>
                                 </div>
-                                Java
+                                SQL
                             </td>
                         </tr>
                         <tr>
@@ -174,7 +174,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star-o"></i>
                                 </div>
-                                SQL
+                                Python
                             </td>
                         </tr>
                         <tr>
@@ -196,7 +196,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star-o"></i>
                                 </div>
-                                C
+                                C++
                             </td>
                         </tr>
                         <tr>
@@ -215,10 +215,10 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
                                     <i class="fa fa-star-o"></i>
                                 </div>
-                                C++
+                                Objective C
                             </td>
                         </tr>
                         <tr>
@@ -240,7 +240,22 @@
                                     <i class="fa fa-star-o"></i>
                                     <i class="fa fa-star-o"></i>
                                 </div>
-                                Objective C
+                                AJAX
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-sm-6">
+                                <div class="pull-right primary-color">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                MySql
+                            </td>
+                            <td class="col-sm-6">
                             </td>
                         </tr>
                     </table>

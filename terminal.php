@@ -62,7 +62,7 @@
             var commandHistory      = [];
             var commandHistoryCount = 1;
 
-            Command.startUp();
+            // Command.startUp();
 
             $('#console-input').keydown(function(e) {
                 if (e.which == 13) {
@@ -120,6 +120,11 @@
                         case "cat about.txt":
                             errorCommand = 0;
                             Command.aboutText();
+                            break;
+
+                        case "cat skills.txt":
+                            errorCommand = 0;
+                            Command.skillsText();
                             break;
 
                         case "clear":
@@ -408,7 +413,107 @@
             },
 
             skillsText: function() {
+                var table = '<br>'
+                    + '<p>Languages</p>'
+                    + '<table>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">PHP<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Java</td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">JavaScripts<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">SQL</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">JQuery<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Python</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">CSS<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">C++</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">HTML<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Objective C</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">JQuery<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">AJAX</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">MySql<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;"></td>'
+                            + '<td style="padding: 0px 10px;"></td>'
+                        + '</tr>'
+                    + '</table>'
+                    + '<br>'
+                    + '<p>Tools</p>'
+                    + '<table>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">MVC Frameworks<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Object Oriented Design</td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Symfony 2/3<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Responsive Design</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">CodeIgniter 2<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Apache</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Doctrine<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Nginx</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Twig<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Xcode</td>'
+                            + '<td style="padding: 0px 10px;">****-</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">MS Office<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Adobe Suite</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Bootstrap Framework<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Android Studio</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                        + '<tr>'
+                            + '<td style="padding: 0px 10px;">Git<td>'
+                            + '<td style="padding: 0px 10px;">*****</td>'
+                            + '<td style="padding: 0px 10px;">Eclipse</td>'
+                            + '<td style="padding: 0px 10px;">***--</td>'
+                        + '</tr>'
+                    + '</table>'
+                    + '<br>';
 
+                $('#console-past').append(table);
             },
 
             startUp: function() {
