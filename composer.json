@@ -1,0 +1,13 @@
+{
+    "name": "matte/mattellis.dev",
+    "require": {
+        "sendgrid/sendgrid": "5.1",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Matt Ellis",
+            "email": "mellis@ncees.org"
+        }
+    ]
+}
