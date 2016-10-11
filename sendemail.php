@@ -28,6 +28,8 @@ if (! $apiKey) {
     /* this is needed for dev, prod will already have in env vars */
     $dotenv = new Dotenv\Dotenv(__DIR__);
     $dotenv->load();
+
+    $apiKey = getenv('SENDGRID_API_KEY');
 }
 
 $sg = new \SendGrid($apiKey);
