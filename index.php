@@ -47,13 +47,12 @@
         <?php if (isset($_GET['email'])): ?>
             <br>
             <div class="alert-custom alert-custom-success">
-                Thanks for the email! It was successfully sent to me and I should reply shortly if needed.
+                Message sent
             </div>
         <?php endif ?>
-        <br />
-        <!-- Tabs -->
+        <br>
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-md-12 col-sm-12">
                 <a href="public/images/Resume2016.pdf" target="_blank" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Resume</a>
                 <a href="#contact" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Contact</a>
                 <a href="#portfolio" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Portfolio</a>
@@ -61,28 +60,32 @@
                 <a href="#about" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">About</a>
             </div>
         </div>
-        <!-- Intro Block -->
         <div class="col-sm-10">
-            <!-- About Block -->
-            <div class="topBlock_hide" id="topBlock_about" style="max-height:433px;">
+            <div class="topBlock_hide" id="topBlock_about" style="max-height: 433px;">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <img src="photos/matt_img2.png" style="max-width:100%; max-height:415px;" />
+                    <div class="col-xs-4">
+                        <img src="photos/matt_img2.png" style="max-width: 100%; max-height: 415px;" />
                     </div>
-                    <div class="col-lg-offset-1 col-sm-7" style="color: #fff;">
-                        <br><br><br>
-                        <h2 style="font-size: 48px;">
-                            Hi. I'm Matt. A Web and Mobile Application Developer.
+                    <div class="col-sm-offset-1 col-xs-7" style="color: #fff; margin-top: 60px;">
+                        <h2 style="font-size: 3em;" class="visible-md visible-lg">
+                            Hi. I'm Matt.
+                            <br>
+                            A Web and Mobile Application Developer.
                         </h2>
+                        <h3 style="font-size: 2em;" class="visible-sm visible-xs">
+                            Hi. I'm Matt.
+                            <br>
+                            A Web and Mobile Application Developer.
+                        </h3>
                     </div>
                 </div>
             </div>
-        </div><!-- End Intro -->
-    </div><!-- End Container -->
+        </div>
+    </div>
 
     <!-- About Me -->
     <a id="about"></a>
-    <div class="dark-background"><!-- 9DA4BB -->
+    <div class="dark-background">
         <div class="container" style="padding-bottom: 150px;">
             <div class="row">
                 <h1 class="text-center" style="color:#FFF; margin-top: 150px;">
@@ -735,36 +738,9 @@
                             Send
                         </button>
                     </form>
-                    <!-- <form method="post" action="sendemail.php">
-                    <div class="well">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <label>Your Name</label>
-                                <input type="text" name="name" class="form-control" placeholder="Your Name"><br />
-                                <label>Email Address</label>
-                                <input type="email" name="email" class="form-control" placeholder="Your email address"><br />
-                                <label>Subject</label>
-                                <input type="text" name="subject" class="form-control" placeholder="Your email subject">
-                            </div>
-                            <div class="col-md-7">
-                                <label>Message</label>
-                                <textarea name="message" id="message" class="form-control" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <br />
-                                <button type="submit" class="btn btn-custom pull-right">
-                                    <i class="fa fa-send"></i>
-                                    Send
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    </form> -->
                 </div>
             </div>
-        </div><!-- End Container -->
+        </div>
     </div>
 
     <!-- Footer -->
