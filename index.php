@@ -547,12 +547,13 @@
         </h2>
         <br>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img src="public/images/CAIF-Screenshot.png" style="max-width: 100%;">
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="thumbnail light-background" style="border: none;">
                     <div class="caption">
+                        <hr style="width: 20%;" class="visible-sm visible-xs">
                         <p class="purple-color text-block">
                             This was my first full web site which is an ongoing development. Created for the non-profit Clemson Area International Friendship organization, this web site provides local international students the ability to sign up and be paired with host families in the community. I was able to provide the ability for CAIF's president to have administrative functionality for back-end web upkeep as well as implement a way for the CAIF officers to easily match and pair the students with host families.
                         </p>
@@ -574,22 +575,23 @@
             </h2>
             <br>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-xs-4">
                             <img src="public/images/MainScreen4.png" style="max-width: 100%;">
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-xs-4">
                             <img src="public/images/DistributorScreen4.png" style="max-width: 100%;">
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-xs-4">
                             <img src="public/images/ProductScreen4.png" style="max-width: 100%;">
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="thumbnail lighter-background" style="border: none;">
                         <div class="caption">
+                            <hr style="width: 20%;" class="visible-sm visible-xs">
                             <p class="purple-color text-block">
                                 This app was developed for a local adhesives company to display their product information.
                                 This is my first published iOS application that can be found in the Apple app store. I
@@ -599,12 +601,12 @@
                                 application to handle push updates to the local SQLite database.
                             </p>
                             <a href="https://itunes.apple.com/us/app/parabond/id925469601" target="_blank">
-                                <h3 class="purple-color col-md-6">
+                                <h3 class="purple-color col-sm-6">
                                     View in Itunes &raquo;
                                 </h3>
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=com.royaladhesives.parabond" target="_blank">
-                                <h3 class="purple-color col-md-6">
+                                <h3 class="purple-color col-sm-6">
                                     View in Google Play &raquo;
                                 </h3>
                             </a>
@@ -622,12 +624,13 @@
         </h2>
         <br>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img src="public/images/cfb.png" style="max-width: 100%;">
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="thumbnail light-background" style="border: none;">
                     <div class="caption">
+                        <hr style="width: 20%;" class="visible-sm visible-xs">
                         <p class="purple-color text-block">
                             I love college football. So I decided to have some fun with friends and family and make a pick'em app. The purpose of the app is simple, to make weekly predictions on who will win. I also keep it up-to-date with the scores and stats so you can see the season averages for each team and game comparisons between teams. Hopefully I will be able to do some cool stuff with the data, but for now it is just bringing out the competitive nature between friends. Feel free to make an account and play along.
                         </p>
@@ -649,12 +652,13 @@
             </h2>
             <br>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <img src="public/images/cfa-main.png" style="max-width: 100%;">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="thumbnail lighter-background" style="border: none;">
                         <div class="caption">
+                            <hr style="width: 20%;" class="visible-sm visible-xs">
                             <p class="purple-color text-block">
                                 This is an application that I am currently working on for a local Chick-fil-A store. As my wife works in
                                 their marketing department, I am never running out of ideas for this app. This application will serve
@@ -677,12 +681,13 @@
                 Rutland Institute for Ethics
             </h2>
             <br>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img src="public/images/Rutland-Screenshot.png" style="max-width: 100%;">
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="thumbnail light-background" style="border: none;">
                     <div class="caption">
+                        <hr style="width: 20%;" class="visible-sm visible-xs">
                         <p class="purple-color text-block">
                             Rutland is an institute on the Clemson Univeristy campus that strives to benefit the campus and
                             community by showing the importance of ethics. I began working for the Rutland Institute to
@@ -708,12 +713,13 @@
             </h2>
             <br>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <img src="photos/RSVP_main.png" style="max-width:100%;">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="thumbnail lighter-background" style="border: none;">
                         <div class="caption">
+                            <hr style="width: 20%;" class="visible-sm visible-xs">
                             <h3 class="purple-color">RSVP Application</h3>
                             <p class="purple-color text-block">
                                 Created as an intern at the university, the RSVP application is designed for all Clemson faculty and staff to have access to events and to also be able to respond with a RSVP to those events. The approved Clemson users with administrative options also have the ability to create and manage these events.
@@ -726,12 +732,13 @@
             <br>
 
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <img src="photos/MOU_main.png" style="max-width:100%;">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="thumbnail lighter-background" style="border: none;">
                         <div class="caption">
+                            <hr style="width: 20%;" class="visible-sm visible-xs">
                             <h3 class="purple-color">
                                 Clemson CCIT MOU Application
                             </h3>
@@ -754,23 +761,35 @@
             </center>
             <br />
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <h3 class="white-color">My Info</h3>
+                    <div class="pull-right visible-sm visible-xs">
+                        <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 18px; color: inherit;" class="pull-right">
+                            GitHub
+                        </a>
+                        <br><br>
+                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 18px; color: inherit;" class="pull-right">
+                            My Resume
+                        </a>
+                    </div>
                     <address style="font-size: 18px;">
                         <abbr title="Email">E:</abbr> mellis0292@gmail.com
                         <br><br>
                         <abbr title="Phone">P:</abbr> (864) 247-9619
                     </address>
-                    <br><br>
-                    <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 18px; color: inherit;">
-                        GitHub
-                    </a>
-                    <br><br>
-                    <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 18px; color: inherit;">
-                        My Resume
-                    </a>
+                    <div class="visible-lg visible-md">
+                        <br><br>
+                        <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 18px; color: inherit;">
+                            GitHub
+                        </a>
+                        <br><br>
+                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 18px; color: inherit;">
+                            My Resume
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-md-8">
+                    <br class="visible-sm visible-xs">
                     <h3 class="white-color">Send me a message</h3>
                     <form method="post" action="sendemail.php" class="form-email">
                         <input type="text" name="name" class="form-control" placeholder="Your Name"><br>
@@ -788,9 +807,9 @@
 
     <!-- Footer -->
     <div class="dark-background">
-        <br /><br />
+        <br><br>
         <div class="container">
-            <div class="row">
+            <div class="row visible-lg visible-md">
                 <div class="col-sm-4" style="margin-top: 5px;">
                     <p style="font-size: 1.2em;">
                         <?php date_default_timezone_set('America/New_York'); ?>
@@ -807,7 +826,7 @@
                         <i class="fa fa-twitter-square light-purple"></i>
                     </a>
                     <a href="https://www.facebook.com/matt.ellis.5076" target="_blank">
-                        <i class="fa fa-facebook-square light-purple"></i
+                        <i class="fa fa-facebook-square light-purple"></i>
                     </a>
                     <a href="https://www.linkedin.com/pub/matthew-ellis/89/1ab/420" target="_blank">
                         <i class="fa fa-linkedin-square light-purple"></i>
@@ -823,8 +842,41 @@
                     </div>
                 </div>
             </div>
+            <div class="visible-sm visible-xs" style="font-size: 1.5em;">
+                <div class="text-center" style="font-size: 2.5em;">
+                    <a href="https://github.com/clemsonmatt" target="_blank">
+                        <i class="fa fa-github-square light-purple"></i>
+                    </a>
+                    <a href="https://twitter.com/matte_1" target="_blank">
+                        <i class="fa fa-twitter-square light-purple"></i>
+                    </a>
+                    <a href="https://www.facebook.com/matt.ellis.5076" target="_blank">
+                        <i class="fa fa-facebook-square light-purple"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/pub/matthew-ellis/89/1ab/420" target="_blank">
+                        <i class="fa fa-linkedin-square light-purple"></i>
+                    </a>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="pull-right">
+                            Matt Ellis
+                        </div>
+                        <br>
+                        <div class="pull-right">
+                            Copyright &copy; <?php echo date('Y') ?>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        864-247-9619
+                        <br>
+                        mellis0292@gmail.com
+                    </div>
+                </div>
+            </div>
         </div>
-        <br /><br />
+        <br><br>
     </div>
 </div>
 </body>
