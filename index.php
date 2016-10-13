@@ -39,11 +39,6 @@
             font-size: 3.8em;
             letter-spacing: 3px;
         }
-        @media (max-width: 992px) {
-            body {
-                font-size: 1.8em;
-            }
-        }
     </style>
 </head>
 
@@ -82,28 +77,19 @@
                 </div>
             </div>
         </nav>
-        <!-- <div class="row">
-            <div class="col-md-12">
-                <a href="public/images/Resume2016.pdf" target="_blank" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Resume</a>
-                <a href="#contact" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Contact</a>
-                <a href="#portfolio" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Portfolio</a>
-                <a href="#skills" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Skills</a>
-                <a href="#about" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">About</a>
-            </div>
-        </div> -->
         <div class="col-sm-10">
             <div class="topBlock_hide" id="topBlock_about" style="max-height: 433px;">
                 <div class="row">
                     <div class="col-md-4 col-xs-5">
                         <img src="photos/matt_img2.png" style="max-width: 100%; max-height: 415px;" />
                     </div>
-                    <div class="col-md-offset-1 col-md-7 col-xs-6" style="color: #fff; margin-top: 60px;">
-                        <h2 style="font-size: 3em;" class="visible-md visible-lg">
+                    <div class="col-md-offset-1 col-md-7 col-xs-6" style="color: #fff;">
+                        <h2 style="font-size: 3em; margin-top: 60px;" class="visible-md visible-lg">
                             Hi. I'm Matt.
                             <br>
                             A Web and Mobile Application Developer.
                         </h2>
-                        <h3 style="font-size: 1.8em;" class="visible-sm visible-xs">
+                        <h3 style="font-size: 1.4em;" class="visible-sm visible-xs">
                             Hi. I'm Matt.
                             <br>
                             A Web and Mobile Application Developer.
@@ -798,8 +784,8 @@
                         <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 1.4em; color: inherit;" class="pull-right">
                             GitHub
                         </a>
-                        <br><br>
-                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 1.4em; color: inherit;" class="pull-right">
+                        <br>
+                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 1.4em; color: inherit; margin-top: 25px;" class="pull-right">
                             My Resume
                         </a>
                     </div>
@@ -873,8 +859,8 @@
                     </div>
                 </div>
             </div>
-            <div class="visible-sm visible-xs" style="font-size: 1.5em;">
-                <div class="text-center" style="font-size: 2em;">
+            <div class="visible-sm visible-xs">
+                <div class="text-center" style="font-size: 2.8em;">
                     <a href="https://github.com/clemsonmatt" target="_blank">
                         <i class="fa fa-github-square light-purple"></i>
                     </a>
