@@ -303,11 +303,11 @@ h3 {
 .navbar-brand {
     color: #D4C99E;
 }
-.navbar-custom .container-fluid .navbar-collapse .navbar-nav li a {
+.navbar-custom .container .navbar-collapse .navbar-nav li a {
     color: #fff;
     font-size: 1.4em;
 }
-.navbar-custom .container-fluid .navbar-collapse .navbar-nav li a:hover {
+.navbar-custom .container .navbar-collapse .navbar-nav li a:hover {
     background-color: inherit;
 }
 .navbar-custom .navbar-toggle {
