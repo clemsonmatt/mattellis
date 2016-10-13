@@ -14,6 +14,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="public/js/bootstrap.js"></script>
 
     <script type="text/javascript">
         $(function() {
@@ -37,6 +38,11 @@
             font-size: 3.8em;
             letter-spacing: 3px;
         }
+        @media (max-width: 992px) {
+            body {
+                font-size: 1.8em;
+            }
+        }
     </style>
 </head>
 
@@ -51,28 +57,52 @@
             </div>
         <?php endif ?>
         <br>
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
+        <nav class="navbar navbar-custom">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" class="navbar-brand">Matt Ellis</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="public/images/Resume2016.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="row">
+            <div class="col-md-12">
                 <a href="public/images/Resume2016.pdf" target="_blank" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Resume</a>
                 <a href="#contact" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Contact</a>
                 <a href="#portfolio" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Portfolio</a>
                 <a href="#skills" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">Skills</a>
                 <a href="#about" class="pull-right" style="margin-right:25px; font-size:22px; color:#FFF;">About</a>
             </div>
-        </div>
+        </div> -->
         <div class="col-sm-10">
             <div class="topBlock_hide" id="topBlock_about" style="max-height: 433px;">
                 <div class="row">
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-xs-5">
                         <img src="photos/matt_img2.png" style="max-width: 100%; max-height: 415px;" />
                     </div>
-                    <div class="col-sm-offset-1 col-xs-7" style="color: #fff; margin-top: 60px;">
+                    <div class="col-md-offset-1 col-md-7 col-xs-6" style="color: #fff; margin-top: 60px;">
                         <h2 style="font-size: 3em;" class="visible-md visible-lg">
                             Hi. I'm Matt.
                             <br>
                             A Web and Mobile Application Developer.
                         </h2>
-                        <h3 style="font-size: 2em;" class="visible-sm visible-xs">
+                        <h3 style="font-size: 1.8em;" class="visible-sm visible-xs">
                             Hi. I'm Matt.
                             <br>
                             A Web and Mobile Application Developer.
@@ -764,26 +794,26 @@
                 <div class="col-md-4">
                     <h3 class="white-color">My Info</h3>
                     <div class="pull-right visible-sm visible-xs">
-                        <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 18px; color: inherit;" class="pull-right">
+                        <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 1.4em; color: inherit;" class="pull-right">
                             GitHub
                         </a>
                         <br><br>
-                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 18px; color: inherit;" class="pull-right">
+                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 1.4em; color: inherit;" class="pull-right">
                             My Resume
                         </a>
                     </div>
-                    <address style="font-size: 18px;">
+                    <address style="font-size: 1.4em;">
                         <abbr title="Email">E:</abbr> mellis0292@gmail.com
                         <br><br>
                         <abbr title="Phone">P:</abbr> (864) 247-9619
                     </address>
                     <div class="visible-lg visible-md">
                         <br><br>
-                        <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 18px; color: inherit;">
+                        <a href="http://github.com/clemsonmatt" target="_blank" style="font-size: 1.4em; color: inherit;">
                             GitHub
                         </a>
                         <br><br>
-                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 18px; color: inherit;">
+                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 1.4em; color: inherit;">
                             My Resume
                         </a>
                     </div>
@@ -843,7 +873,7 @@
                 </div>
             </div>
             <div class="visible-sm visible-xs" style="font-size: 1.5em;">
-                <div class="text-center" style="font-size: 2.5em;">
+                <div class="text-center" style="font-size: 2em;">
                     <a href="https://github.com/clemsonmatt" target="_blank">
                         <i class="fa fa-github-square light-purple"></i>
                     </a>
