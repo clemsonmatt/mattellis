@@ -92,7 +92,7 @@
                     About me
                 </h1>
                 <br>
-                <div class="col-sm-offset-2 col-sm-8 text-block">
+                <div class="col-md-offset-2 col-md-8 text-block">
                     My name is Matt Ellis. I graduated from Clemson University with a Bachelors of Science in Computer Science. Through my internship at the university, building web apps for the NCEES, and various freelance jobs; I have enjoyed learning many new languages and OOP skills. I have a passion for web development. I like building, designing, and structuring an application that not only functions, but promotes a good user experience. In my free time, I enjoy spending time on the lake with friends and family. My goal is to help build a better tomorrow through learning new technologies and never backing down from a challenge.
                 </div>
             </div>
@@ -113,155 +113,172 @@
                 <div class="col-sm-offset-2 col-sm-8">
                     <h3 class="medium-grey">Languages</h3>
                     <br>
-                    <table class="col-sm-12" style="font-size: 18px;">
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                PHP
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Java
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                JavaScript
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                SQL
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                JQuery
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Python
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                CSS
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                C++
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                HTML
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Objective C
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                JQuery
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                AJAX
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                MySql
-                            </td>
-                            <td class="col-sm-6">
-                            </td>
-                        </tr>
-                    </table>
+                    <div class="row">
+                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <table style="font-size: 1.3em; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        PHP
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        JavaScript
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        JQuery
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        CSS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        HTML
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        JQuery
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        MySql
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <table style="font-size: 1.3em; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Java
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        SQL
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Python
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        C++
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Objective C
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        AJAX
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 
                     <br><br>
                     <hr>
@@ -269,206 +286,232 @@
 
                     <h3 class="medium-grey">Tools</h3>
                     <br>
-                    <table class="col-sm-12" style="font-size: 18px;">
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                MVC Frameworks
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Object Oriented Design
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Symfony
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Tower &amp; GitHub Desktop
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                CodeIgniter
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Responsive Design
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Doctrine
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Apache
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Twig
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Nginx
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                MS Office
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Xcode
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Bootstrap Framework
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Adobe Suite
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Git
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Android Studio
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                Heroku
-                            </td>
-                            <td class="col-sm-6">
-                                <div class="pull-right primary-color">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                Eclipse
-                            </td>
-                        </tr>
-                    </table>
+                    <div class="row">
+                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <table style="font-size: 1.3em; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        MVC Frameworks
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Symfony
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        CodeIgniter
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Doctrine
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Twig
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        MS Office
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Bootstrap Framework
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Git
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Heroku
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <table style="font-size: 1.3em; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Object Oriented Design
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Tower &amp; GitHub Desktop
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Responsive Design
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Apache
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Nginx
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Xcode
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Adobe Suite
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Android Studio
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Eclipse
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
