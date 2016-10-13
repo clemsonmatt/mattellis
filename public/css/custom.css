@@ -36,7 +36,7 @@ h3 {
 }
 
 .text-block {
-    font-size: 20px;
+    font-size: 1.4em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -105,10 +105,10 @@ h3 {
 
     padding: 10px;
     margin-bottom: 0px;
-    height: 40px;
+    height: 2.4em;
     color: #B6B9CD;
-    line-height: 40px;
-    font-size: 16px;
+    line-height: 3em;
+    font-size: 1.4em;
     background-color: #302E41;
 }
 .form-email textarea
@@ -122,7 +122,7 @@ h3 {
     padding: 10px;
     margin-bottom: 0px;
     color: #B6B9CD;
-    font-size: 16px;
+    font-size: 1.4em;
     background-color: #302E41;
 }
 .form-email-1 input[type="text"]
@@ -293,4 +293,34 @@ h3 {
 
     /* W3C Markup, IE10 Release Preview */
     background-image: linear-gradient(to left, #7F7F7F 0%, #CFCFCF 100%);
+}
+
+
+.navbar-custom {
+    background-color: inherit;
+    border: none;
+}
+.navbar-brand {
+    color: #D4C99E;
+}
+.navbar-custom .container-fluid .navbar-collapse .navbar-nav li a {
+    color: #fff;
+    font-size: 1.4em;
+}
+.navbar-custom .container-fluid .navbar-collapse .navbar-nav li a:hover {
+    background-color: inherit;
+}
+.navbar-custom .navbar-toggle {
+    border: 1px solid #fff;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+@media (max-width: 768px) {
+    .navbar-custom {
+        background-color: #c4b98E;
+    }
+    .navbar-brand {
+        color: #fff;
+    }
 }
