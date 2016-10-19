@@ -81,7 +81,7 @@
             <div class="topBlock_hide" id="topBlock_about" style="max-height: 433px;">
                 <div class="row">
                     <div class="col-md-4 col-xs-5">
-                        <img src="photos/matt_img2.png" style="max-width: 100%; max-height: 415px;" />
+                        <img src="public/images/matt.png" style="max-width: 100%; max-height: 415px;" />
                     </div>
                     <div class="col-md-offset-1 col-md-7 col-xs-6" style="color: #fff;">
                         <h2 style="font-size: 3em; margin-top: 60px;" class="visible-md visible-lg">
@@ -731,7 +731,7 @@
             <br>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="photos/RSVP_main.png" style="max-width:100%;">
+                    <img src="public/images/CCIT_RSVP.png" style="max-width:100%;">
                 </div>
                 <div class="col-md-6">
                     <div class="thumbnail lighter-background" style="border: none;">
@@ -750,7 +750,7 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <img src="photos/MOU_main.png" style="max-width:100%;">
+                    <img src="public/images/CCIT_MOU.png" style="max-width:100%;">
                 </div>
                 <div class="col-md-6">
                     <div class="thumbnail lighter-background" style="border: none;">
