@@ -178,7 +178,7 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                         </div>
-                                        CSS
+                                        CSS/SASS
                                     </td>
                                 </tr>
                                 <tr>
@@ -217,10 +217,18 @@
                                         MySql
                                     </td>
                                 </tr>
-                            </table>
-                        </div>
-                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
-                            <table style="font-size: 1.3em; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Ruby
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td>
                                         <div class="pull-right primary-color">
@@ -233,6 +241,10 @@
                                         Java
                                     </td>
                                 </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <table style="font-size: 1.3em; width: 100%;">
                                 <tr>
                                     <td>
                                         <div class="pull-right primary-color">
@@ -266,7 +278,55 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
+                                        AJAX
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        C
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
                                         C++
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Angular
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        CoffeeScript
                                     </td>
                                 </tr>
                                 <tr>
@@ -290,7 +350,7 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        AJAX
+                                        Swift
                                     </td>
                                 </tr>
                             </table>
@@ -451,6 +511,18 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
+                                        Ruby on Rails
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
                                         Responsive Design
                                     </td>
                                 </tr>
@@ -512,18 +584,6 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         Android Studio
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="pull-right primary-color">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        Eclipse
                                     </td>
                                 </tr>
                             </table>
@@ -665,25 +725,23 @@
     <div class="lighter-background">
         <div class="container" style="padding: 50px 0px 65px 0px;">
             <h2 class="white-color text-center">
-                Chick-fil-A
+                Punch-Clock
             </h2>
             <br>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="public/images/cfa-main.png" style="max-width: 100%;">
+                    <center>
+                        <img src="public/images/punchClock.png" style="max-width: 60%;">
+                    </center>
                 </div>
                 <div class="col-md-6">
                     <div class="thumbnail lighter-background" style="border: none;">
                         <div class="caption">
                             <hr style="width: 20%;" class="visible-sm visible-xs">
                             <p class="purple-color text-block">
-                                This is an application that I am currently working on for a local Chick-fil-A store. As my wife works in
-                                their marketing department, I am never running out of ideas for this app. This application will serve
-                                as a tool to help manage many aspects of the day to day tasks such as: scheduling, managing employees,
-                                assigning tasks, performance reviews, and many more. This app will allow the operator and directors
-                                to have a searchable record of tasks that currently have little to no paper trail. It will also provide
-                                a singular place for information that can be accessed easily by managers, along with a responsive design
-                                for the team members to view and change their schedules.
+                                This is an application that I built for tracking employee time cards. The idea is simple; an easy to use interface to track when the employee arrives at work, leaves, or moves to a different building.
+                                <br><br>
+                                This native desktop application was built using electron. Electron is built on top of nodejs and allows you to easily build native applications simultaneously for windows and mac.
                             </p>
                         </div>
                     </div>
