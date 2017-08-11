@@ -72,7 +72,7 @@
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="public/images/Resume2016.pdf" target="_blank">Resume</a></li>
+                        <li><a href="public/images/MattResume2017.pdf" target="_blank">Resume</a></li>
                     </ul>
                 </div>
             </div>
@@ -241,6 +241,18 @@
                                         Java
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Twig
+                                    </td>
+                                </tr>
                             </table>
                         </div>
                         <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
@@ -252,9 +264,21 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star"></i>
                                         </div>
                                         SQL
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        AJAX
                                     </td>
                                 </tr>
                                 <tr>
@@ -278,7 +302,7 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        AJAX
+                                        TypeScript
                                     </td>
                                 </tr>
                                 <tr>
@@ -303,18 +327,6 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         C++
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="pull-right primary-color">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        Angular
                                     </td>
                                 </tr>
                                 <tr>
@@ -423,18 +435,6 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                         </div>
-                                        Twig
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="pull-right primary-color">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
                                         MS Office
                                     </td>
                                 </tr>
@@ -474,10 +474,30 @@
                                         Heroku
                                     </td>
                                 </tr>
-                            </table>
-                        </div>
-                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
-                            <table style="font-size: 1.3em; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        GraphQL
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Restful API
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td>
                                         <div class="pull-right primary-color">
@@ -502,6 +522,22 @@
                                         Tower &amp; GitHub Desktop
                                     </td>
                                 </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <table style="font-size: 1.3em; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        Ruby on Rails
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td>
                                         <div class="pull-right primary-color">
@@ -511,7 +547,7 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        Ruby on Rails
+                                        Angular
                                     </td>
                                 </tr>
                                 <tr>
@@ -560,6 +596,42 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         Xcode
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        AWS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        S3
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="pull-right primary-color">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        Electron
                                     </td>
                                 </tr>
                                 <tr>
@@ -843,7 +915,7 @@
                             GitHub
                         </a>
                         <br>
-                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 1.4em; color: inherit; margin-top: 25px;" class="pull-right">
+                        <a href="public/images/MattResume2017.pdf" target="_blank" style="font-size: 1.4em; color: inherit; margin-top: 25px;" class="pull-right">
                             My Resume
                         </a>
                     </div>
@@ -858,7 +930,7 @@
                             GitHub
                         </a>
                         <br><br>
-                        <a href="public/images/Resume2016.pdf" target="_blank" style="font-size: 1.4em; color: inherit;">
+                        <a href="public/images/MattResume2017.pdf" target="_blank" style="font-size: 1.4em; color: inherit;">
                             My Resume
                         </a>
                     </div>
